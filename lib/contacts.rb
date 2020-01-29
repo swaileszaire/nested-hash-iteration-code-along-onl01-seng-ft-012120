@@ -6,6 +6,10 @@ require 'pry'
   #     name: "Jon",
   #     email: "jon_snow@thewall.we", 
   #     favorite_ice_cream_flavors: ["chocolate", "vanilla"]
+  Def contact_details_hash 
+  contacts.each do |person, contact_details_hash|
+    binding.pry 
+  end
   #   },
   #   "Freddy Mercury" => {
   #     name: "Freddy",
